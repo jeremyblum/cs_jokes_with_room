@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CS Jokes</string>
+    <string name="joke">Joke</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_thumb_up">Display Liked Jokes</string>
+    <string name="menu_thumb_up_down">Display All Jokes</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_cancel">Cancel</string>
+
+    <string name="title">Title</string>
+    <string name="setup">Set up</string>
+    <string name="punchline">Punchline</string>
+
+    <string name="liked">Liked</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_filter">Filter jokes</string>
+    <string name="pref_filter_summary">Show only liked jokes on app start up</string>
+
+</resources>

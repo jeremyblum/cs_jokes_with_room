@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="JokeTitle">
+        <item>Base Joke</item>
+        <item>Java</item>
+        <item>SQL</item>
+        <item>Hardware</item>
+        <item>Testing</item>
+        <item>C++</item>
+        <item>Arrays</item>
+        <item>Recursion</item>
+        <item>Warnings</item>
+        <item>Buffers</item>
+        <item>Strings</item>
+        <item>Scariest number</item>
+        <item>Two bytes </item>
+        <item>Success</item>
+        <item>C</item>
+        <item>Obfuscated Perl</item>
+        <item>Shakespeare</item>
+        <item>Windows</item>
+        <item>RegEx</item>
+        <item>Concurrent chickens</item>
+        <item>Programmer spouses</item>
+        <item>Optimist vs. Pessimist vs.</item>
+        <item>A scrupulous and honest programmer</item>
+        <item>Quitting time</item>
+        <item>Glasses</item>
+        <item>Hardware</item>
+        <item>No idea</item>
+        <item>Stuck</item>
+        <item>Programmer v. non-programmer</item>
+        <item>Not a knock-knock joke</item>
+        <item>A bar</item>
+        <item>A bar</item>
+        <item>Poem</item>
+        <item>SQL developers</item>
+        <item>UNIX</item>
+        <item>Recursion</item>
+        <item>Time v. space </item>
+        <item>Donald Knuth</item>
+        <item>100 buckets of bits</item>
+    </string-array>
+    <string-array name="JokeSetup">
+        <item>Why do programmers always mix up Halloween and Christmas?</item>
+        <item>\"Knock, knock.\"\n\n\"Who\'s there?\"\n\nvery long pause…</item>
+        <item>A SQL query goes into a bar, walks up to two tables and asks, …</item>
+        <item>How many programmers does it take to change a light bulb?</item>
+        <item>A physicist, an engineer and a programmer were in a car driving over a steep alpine pass when the brakes failed. The car was getting faster and faster, they were struggling to get round the corners and once or twice only the feeble crash barrier saved them from crashing down the side of the mountain. They were sure they were all going to die, when suddenly they spotted an escape lane. They pulled into the escape lane, and came safely to a halt.\n\nThe physicist said \"We need to model the friction in the brake pads and the resultant temperature rise, see if we can work out why they failed\".</item>
+        <item>When your hammer is C++, …</item>
+        <item>[\"hip\",\"hip\"]</item>
+        <item>To truly understand what recursion is, …</item>
+        <item>A guy is standing on the corner of the street smoking one cigarette after another. A lady walking by notices him and says\n\n\"Hey, don\'t you know that those things can kill you? I mean, didn\'t you see the giant warning on the box?!\"\n\n\"That\'s OK\" says the guy, puffing casually \"I\'m a computer programmer\"\n\n\"So? What\'s that got to do with anything?\"</item>
+        <item>I called the janitor the other day to see what he could do about my dingy linoleum floor. He said he would have been happy to loan me a polisher, but that he had not the slightest idea what he had done with it. I told him not to worry about it - that as a programmer …</item>
+        <item>These two strings walk into a bar and sit down. The bartender says, \"So what\'ll it be?\"\n\nThe first string says, \"I think I\'ll have a beer quag fulk boorg jdk^CjfdLk jk3s d#f67howe%^U r89nvy owmc63^Dz x.xvcu\"</item>
+        <item>Why is 07 the scariest number?</item>
+        <item>Two bytes meet. The first byte asks, \"Are you ill?\"</item>
+        <item>It compiles!</item>
+        <item>In C, we had to code our own bugs.</item>
+        <item>How come there is no obfuscated Perl contest?</item>
+        <item>Question: To be or not to be?</item>
+        <item>It\'s been said that if you play a Windows Install DVD backward, you will hear satanic chanting. Worse still, \…</item>
+        <item>Some people, when confronted with a problem, think, \"I know, I\'ll use regular expressions!\"</item>
+        <item>Why did the concurrent chicken cross the road?</item>
+        <item>Spouse to programmer: \"Buy a stick of butter. If they have eggs, bring 10.\"</item>
+        <item>Optimist: \"The glass is half full.\"\n\nPessimist: \"The glass is half empty.\"</item>
+        <item>A scrupulous and honest programmer checked his receipt from a convenience store, and found that they had neglected to charge him for the new junk food taxes recently mandated in New York City. He wrestled with his conscience about returning the money and pointing out the mistake, but, in the end, …</item>
+        <item>Q: Why did the programmer quit his job?</item>
+        <item>Why do java programmers have to wear glasses?</item>
+        <item>Hardware (def\'n):</item>
+        <item>What sits on your shoulder and goes \"Pieces of 7! Pieces of 7!\"?</item>
+        <item>Why did the computer scientist get stuck in the shower?</item>
+        <item>What is the difference between a programmer and a non-programmer?</item>
+        <item>I was once asked, if I knew any knock-knock jokes.  I said no, but...</item>
+        <item>Two threads walk into a bar. The bartender looks up and yells, …</item>
+        <item>Eight bytes walk into a bar. The bartender asks, \"Can I get you anything?\"</item>
+        <item>"The Programmer's Poem\n\n&lt; &gt; ! * \' \' #\n^ \" ` $ $ -\n ! * = @ $ _ \n % * &lt; &gt; ~ 4\n\&amp; [ ] . . / \n | { , , SYSTEM HALTED"</item>
+        <item>There are only 2 kinds of SQL developers.</item>
+        <item>UNIX is like eating insects.</item>
+        <item>If you already know what recursion is, just remember the answer.</item>
+        <item>The biggest difference between time and space is that …</item>
+        <item>Donald Knuth quote, \"Beware of bugs in the above code…</item>
+        <item>100 buckets of bits on the bus\n100 buckets of bits\ntake one down (short it to ground)</item>
+    </string-array>
+    <string-array name="JokePunchline">
+        <item>Because Oct 31 == Dec 25!</item>
+        <item>\"Java.\"</item>
+        <item>\"Can I join you?\"</item>
+        <item>None, that is a hardware problem.</item>
+        <item>The engineer said \"I think I\'ve got a few spanners in the back. I\'ll take a look and see if I can work out what\'s wrong\".\n\nThe programmer said \"Why don\'t we get going again and see if it\'s reproducible?\"</item>
+        <item>everything begins to look like a thumb.</item>
+        <item tools:ignore="Typos">(hip hip array!)</item>
+        <item>you must first understand recursion.</item>
+        <item>\"We don\'t care about warnings. We only care about errors.\"</item>
+        <item>it was not the first time I had experienced a buffer allocation failure due to a memory error.</item>
+        <item>\"Please excuse my friend,\" the second string says, \"He isn\'t null-terminated.\"</item>
+        <item>Because 07 010 011?\n\n Note to self: Perhaps this is funnier in a different base…</item>
+        <item>The second byte replies, \"No, just feeling a bit off.\"</item>
+        <item>Let\'s submit it!</item>
+        <item>In C++, we can inherit them.</item>
+        <item>Because everyone would win</item>
+        <item>Answer: 2B | ^ 2B = FF </item>
+        <item>if you play it forwards it installs Windows.</item>
+        <item>Now they have two problems. - Jamie Zawinski</item>
+        <item>the other side To to get</item>
+        <item>Programmer returns with 10 sticks of butter, and says, \"They had eggs.\"</item>
+        <item>Assembly language programmer: \"The glass is twice as big as it needs to be.\"</item>
+        <item>he decided it best to make an exception for the sin tax error.</item>
+        <item>A: Because he didn\'t get arrays.</item>
+        <item>Because they don\'t C#.</item>
+        <item>The part of a computer that you can kick.</item>
+        <item>A Parroty Error!</item>
+        <item>Because the instructions on the shampoo bottle said: Lather, Rinse, Repeat.</item>
+        <item>The non-programmer thinks a kilobyte is 1000 bytes, while the programmer believes that a kilometer is 1024 meters.</item>
+        <item>know some !!jokes.  But those are just jokes.</item>
+        <item>\"Hey! I don\'t want any conditions race like time last!\"</item>
+        <item>\"Yeah,\" reply the bytes. \"Make us a double.\"</item>
+        <item tools:ignore="Typos">Waka waka bang splat tick tick hash,\nCaret quote back-tick dollar dollar dash,\nBang splat equal at dollar under-score,\nPercent splat waka waka tilde number four,\nAmpersand bracket bracket dot dot slash,\nVertical-bar curly-bracket comma comma CRASH</item>
+        <item>- Those who know how COUNT() treats NULLs.\n- Those who don\'t.\n- Those who don\'t care.\n</item>
+        <item>It\'s all right once you get used to it.</item>
+        <item>Otherwise, find someone who is standing closer to Douglas Hofstadter than you are, and ask him or her what recursion is.</item>
+        <item>you cannot reuse time.</item>
+        <item>I have only proved it correct, not tried it.\"</item>
+        <item>FF buckets of bits on the bus \nFF buckets of bits on the bus\nFF buckets of bits\ntake one down (short it to ground)\nFE buckets of bits on the bus\n… </item>
+    </string-array>
+</resources>
