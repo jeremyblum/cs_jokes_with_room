@@ -219,7 +219,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         }
 
-
         void setJokes(List<Joke> jokes){
             this.jokes = jokes;
             notifyDataSetChanged();
