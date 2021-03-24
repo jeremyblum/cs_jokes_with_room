@@ -26,7 +26,7 @@ public abstract class JokeDatabase extends RoomDatabase {
 
     private static JokeDatabase INSTANCE;
 
-    public static synchronized JokeDatabase getDatabase(final Context context) {
+    public static JokeDatabase getDatabase(final Context context) {
         if (INSTANCE == null) {
             synchronized (JokeDatabase.class) {
                 if (INSTANCE == null) {
