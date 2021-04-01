@@ -12,6 +12,7 @@ public class JokeViewModel extends AndroidViewModel {
 
     public JokeViewModel (Application application) {
         super(application);
+        jokes = JokeDatabase.getDatabase(getApplication()).jokeDAO().getAll();
     }
 
     public void filterJokes(boolean onlyLiked) {

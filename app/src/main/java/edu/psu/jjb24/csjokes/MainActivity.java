@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity  {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         jokeViewModel = new ViewModelProvider(this).get(JokeViewModel.class);
-        jokeViewModel.filterJokes(filtered);
+        //jokeViewModel.filterJokes(filtered);
 
         //jokeViewModel.getAllJokes().observe(this, new Observer<List<Joke>>() {
         //    public void onChanged(@Nullable final List<Joke> jokes) {
@@ -175,12 +175,6 @@ public class MainActivity extends AppCompatActivity  {
 
                 likedView.setOnClickListener(view -> {
                     joke.liked = !joke.liked;
-                    if (joke.liked) {
-                        likedView.setImageResource(R.drawable.ic_thumb_up);
-                    }
-                    else {
-                        likedView.setImageResource(R.drawable.ic_thumb_down);
-                    }
                     JokeDatabase.update(joke);
                 });
             }
