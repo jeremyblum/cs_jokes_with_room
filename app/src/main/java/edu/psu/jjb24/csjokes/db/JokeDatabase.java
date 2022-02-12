@@ -1,7 +1,9 @@
 package edu.psu.jjb24.csjokes.db;
 
 import android.content.Context;
-import android.os.AsyncTask;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 
 import androidx.annotation.NonNull;
 import androidx.room.Database;
@@ -56,43 +58,31 @@ public abstract class JokeDatabase extends RoomDatabase {
     }
 
     public static void getJoke(int id, JokeListener listener) {
-        new AsyncTask<Integer, Void, Joke> () {
-            protected Joke doInBackground(Integer... ids) {
-                return INSTANCE.jokeDAO().getById(ids[0]);
+        Handler handler = new Handler(Looper.getMainLooper()) {
+            @Override
+            public void handleMessage(Message msg) {
+                super.handleMessage(msg);
+                listener.onJokeReturned((Joke) msg.obj);
             }
+        };
 
-            protected void onPostExecute(Joke joke) {
-                super.onPostExecute(joke);
-                listener.onJokeReturned(joke);
-            }
-        }.execute(id);
+        (new Thread(() -> {
+                Message msg = handler.obtainMessage();
+                msg.obj = INSTANCE.jokeDAO().getById(id);
+                handler.sendMessage(msg);
+            })).start();
     }
 
     public static void insert(Joke joke) {
-        new AsyncTask<Joke, Void, Void> () {
-            protected Void doInBackground(Joke... jokes) {
-                INSTANCE.jokeDAO().insert(jokes);
-                return null;
-            }
-        }.execute(joke);
+        (new Thread(()-> INSTANCE.jokeDAO().insert(joke))).start();
     }
 
     public static void delete(int jokeId) {
-        new AsyncTask<Integer, Void, Void> () {
-            protected Void doInBackground(Integer... ids) {
-                INSTANCE.jokeDAO().delete(ids[0]);
-                return null;
-            }
-        }.execute(jokeId);
+        (new Thread(() -> INSTANCE.jokeDAO().delete(jokeId))).start();
     }
 
 
     public static void update(Joke joke) {
-        new AsyncTask<Joke, Void, Void> () {
-            protected Void doInBackground(Joke... jokes) {
-                INSTANCE.jokeDAO().update(jokes);
-                return null;
-            }
-        }.execute(joke);
+        (new Thread(() -> INSTANCE.jokeDAO().update(joke))).start();
     }
 }
